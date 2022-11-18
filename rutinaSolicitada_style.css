@@ -20,12 +20,12 @@ h1 {
   font-weight: 200;
   margin: 0;
 }
-h3{
-  color: #EEEEEE;
-}
 
 h1.strong {
   font-weight: 600;
+}
+h3{
+  color: #EEEEEE;
 }
 p {
   color: #EEEEEE;
@@ -49,30 +49,24 @@ p {
 
 .boxes p {
   font-size: 15px;
-  margin: 10px;
 }
-
+.boxes .btn-visualizar{
+  background-color: #810000;
+}
+.boxes .btn-descargar {
+  background-color: #EEEEEE;
+}
+.boxes button:hover{
+  background-color: #CE1212;
+}
 .boxes h3 {
   margin: 0;
-}
-.boxes a{
-  text-decoration: none;
-  color: #EEEEEE;
 }
 
 .boxes img {
   width: 50%;
   margin: 20px;
   border-radius: 15px;
-}
-.boxes button{
-  background-color: #810000;
-  border-color: #810000;
-}
-.boxes button:hover{
-  background-color: hsl(180, 100%, 100%);
-  color: #810000;
-  border-color: #810000;
 }
 
 .supervisor-box {
